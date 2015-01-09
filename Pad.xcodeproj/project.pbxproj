@@ -12,6 +12,8 @@
 		2D013BD61A60096C008D889A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D013BD51A60096C008D889A /* Images.xcassets */; };
 		2D013BD91A60096C008D889A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D013BD71A60096C008D889A /* Main.storyboard */; };
 		2D013BE51A60096D008D889A /* PadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D013BE41A60096D008D889A /* PadTests.swift */; };
+		2D013BEF1A600A35008D889A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D013BEE1A600A35008D889A /* WebKit.framework */; };
+		2D013BFC1A600A7F008D889A /* Markingbird.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 2D013BF61A600A5D008D889A /* Markingbird.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +24,42 @@
 			remoteGlobalIDString = 2D013BCB1A60096C008D889A;
 			remoteInfo = Pad;
 		};
+		2D013BF51A600A5D008D889A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D013BF01A600A5D008D889A /* Markingbird.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EAF8DB919A212F30020CA43;
+			remoteInfo = Markingbird;
+		};
+		2D013BF71A600A5D008D889A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D013BF01A600A5D008D889A /* Markingbird.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EAF8DC419A212F30020CA43;
+			remoteInfo = MarkingbirdTests;
+		};
+		2D013BF91A600A69008D889A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D013BF01A600A5D008D889A /* Markingbird.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EAF8DB819A212F30020CA43;
+			remoteInfo = Markingbird;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D013BFB1A600A6D008D889A /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2D013BFC1A600A7F008D889A /* Markingbird.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2D013BCC1A60096C008D889A /* Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pad.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +71,8 @@
 		2D013BDE1A60096C008D889A /* PadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D013BE31A60096C008D889A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D013BE41A60096D008D889A /* PadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadTests.swift; sourceTree = "<group>"; };
+		2D013BEE1A600A35008D889A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		2D013BF01A600A5D008D889A /* Markingbird.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Markingbird.xcodeproj; path = Markingbird/Markingbird.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D013BEF1A600A35008D889A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +97,8 @@
 		2D013BC31A60096C008D889A = {
 			isa = PBXGroup;
 			children = (
+				2D013BF01A600A5D008D889A /* Markingbird.xcodeproj */,
+				2D013BEE1A600A35008D889A /* WebKit.framework */,
 				2D013BCE1A60096C008D889A /* Pad */,
 				2D013BE11A60096C008D889A /* PadTests */,
 				2D013BCD1A60096C008D889A /* Products */,
@@ -109,6 +151,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2D013BF11A600A5D008D889A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D013BF61A600A5D008D889A /* Markingbird.framework */,
+				2D013BF81A600A5D008D889A /* MarkingbirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,10 +170,12 @@
 				2D013BC81A60096C008D889A /* Sources */,
 				2D013BC91A60096C008D889A /* Frameworks */,
 				2D013BCA1A60096C008D889A /* Resources */,
+				2D013BFB1A600A6D008D889A /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2D013BFA1A600A69008D889A /* PBXTargetDependency */,
 			);
 			name = Pad;
 			productName = Pad;
@@ -176,6 +229,12 @@
 			mainGroup = 2D013BC31A60096C008D889A;
 			productRefGroup = 2D013BCD1A60096C008D889A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2D013BF11A600A5D008D889A /* Products */;
+					ProjectRef = 2D013BF01A600A5D008D889A /* Markingbird.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2D013BCB1A60096C008D889A /* Pad */,
@@ -183,6 +242,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2D013BF61A600A5D008D889A /* Markingbird.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Markingbird.framework;
+			remoteRef = 2D013BF51A600A5D008D889A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D013BF81A600A5D008D889A /* MarkingbirdTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MarkingbirdTests.xctest;
+			remoteRef = 2D013BF71A600A5D008D889A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2D013BCA1A60096C008D889A /* Resources */ = {
@@ -228,6 +304,11 @@
 			isa = PBXTargetDependency;
 			target = 2D013BCB1A60096C008D889A /* Pad */;
 			targetProxy = 2D013BDF1A60096C008D889A /* PBXContainerItemProxy */;
+		};
+		2D013BFA1A600A69008D889A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Markingbird;
+			targetProxy = 2D013BF91A600A69008D889A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

@@ -1,0 +1,3 @@
+[submodule "Markingbird"]
+	path = Markingbird
+	url = git@github.com:kristopherjohnson/Markingbird.git
