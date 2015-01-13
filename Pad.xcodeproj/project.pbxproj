@@ -13,7 +13,7 @@
 		2D013BD91A60096C008D889A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D013BD71A60096C008D889A /* Main.storyboard */; };
 		2D013BE51A60096D008D889A /* PadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D013BE41A60096D008D889A /* PadTests.swift */; };
 		2D013BEF1A600A35008D889A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D013BEE1A600A35008D889A /* WebKit.framework */; };
-		2D013BFC1A600A7F008D889A /* Markingbird.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 2D013BF61A600A5D008D889A /* Markingbird.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DAE2AAF1A64A70000E32D7E /* Annie.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAE2AAA1A64A6EA00E32D7E /* Annie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,26 +24,26 @@
 			remoteGlobalIDString = 2D013BCB1A60096C008D889A;
 			remoteInfo = Pad;
 		};
-		2D013BF51A600A5D008D889A /* PBXContainerItemProxy */ = {
+		2DAE2AA91A64A6EA00E32D7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D013BF01A600A5D008D889A /* Markingbird.xcodeproj */;
+			containerPortal = 2DAE2AA41A64A6EA00E32D7E /* Annie.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 4EAF8DB919A212F30020CA43;
-			remoteInfo = Markingbird;
+			remoteGlobalIDString = 2DA00E3E1A5BB81B00C2AADF;
+			remoteInfo = Annie;
 		};
-		2D013BF71A600A5D008D889A /* PBXContainerItemProxy */ = {
+		2DAE2AAB1A64A6EA00E32D7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D013BF01A600A5D008D889A /* Markingbird.xcodeproj */;
+			containerPortal = 2DAE2AA41A64A6EA00E32D7E /* Annie.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 4EAF8DC419A212F30020CA43;
-			remoteInfo = MarkingbirdTests;
+			remoteGlobalIDString = 2DA00E491A5BB81B00C2AADF;
+			remoteInfo = AnnieTests;
 		};
-		2D013BF91A600A69008D889A /* PBXContainerItemProxy */ = {
+		2DAE2AAD1A64A6F000E32D7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D013BF01A600A5D008D889A /* Markingbird.xcodeproj */;
+			containerPortal = 2DAE2AA41A64A6EA00E32D7E /* Annie.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 4EAF8DB819A212F30020CA43;
-			remoteInfo = Markingbird;
+			remoteGlobalIDString = 2DA00E3D1A5BB81B00C2AADF;
+			remoteInfo = Annie;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -54,7 +54,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2D013BFC1A600A7F008D889A /* Markingbird.framework in Copy Frameworks */,
+				2DAE2AAF1A64A70000E32D7E /* Annie.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,7 +72,7 @@
 		2D013BE31A60096C008D889A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D013BE41A60096D008D889A /* PadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadTests.swift; sourceTree = "<group>"; };
 		2D013BEE1A600A35008D889A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		2D013BF01A600A5D008D889A /* Markingbird.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Markingbird.xcodeproj; path = Markingbird/Markingbird.xcodeproj; sourceTree = "<group>"; };
+		2DAE2AA41A64A6EA00E32D7E /* Annie.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Annie.xcodeproj; path = Annie/Annie.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 		2D013BC31A60096C008D889A = {
 			isa = PBXGroup;
 			children = (
-				2D013BF01A600A5D008D889A /* Markingbird.xcodeproj */,
+				2DAE2AA41A64A6EA00E32D7E /* Annie.xcodeproj */,
 				2D013BEE1A600A35008D889A /* WebKit.framework */,
 				2D013BCE1A60096C008D889A /* Pad */,
 				2D013BE11A60096C008D889A /* PadTests */,
@@ -151,11 +151,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2D013BF11A600A5D008D889A /* Products */ = {
+		2DAE2AA51A64A6EA00E32D7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D013BF61A600A5D008D889A /* Markingbird.framework */,
-				2D013BF81A600A5D008D889A /* MarkingbirdTests.xctest */,
+				2DAE2AAA1A64A6EA00E32D7E /* Annie.framework */,
+				2DAE2AAC1A64A6EA00E32D7E /* AnnieTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2D013BFA1A600A69008D889A /* PBXTargetDependency */,
+				2DAE2AAE1A64A6F000E32D7E /* PBXTargetDependency */,
 			);
 			name = Pad;
 			productName = Pad;
@@ -231,8 +231,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 2D013BF11A600A5D008D889A /* Products */;
-					ProjectRef = 2D013BF01A600A5D008D889A /* Markingbird.xcodeproj */;
+					ProductGroup = 2DAE2AA51A64A6EA00E32D7E /* Products */;
+					ProjectRef = 2DAE2AA41A64A6EA00E32D7E /* Annie.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -244,18 +244,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		2D013BF61A600A5D008D889A /* Markingbird.framework */ = {
+		2DAE2AAA1A64A6EA00E32D7E /* Annie.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Markingbird.framework;
-			remoteRef = 2D013BF51A600A5D008D889A /* PBXContainerItemProxy */;
+			path = Annie.framework;
+			remoteRef = 2DAE2AA91A64A6EA00E32D7E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2D013BF81A600A5D008D889A /* MarkingbirdTests.xctest */ = {
+		2DAE2AAC1A64A6EA00E32D7E /* AnnieTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = MarkingbirdTests.xctest;
-			remoteRef = 2D013BF71A600A5D008D889A /* PBXContainerItemProxy */;
+			path = AnnieTests.xctest;
+			remoteRef = 2DAE2AAB1A64A6EA00E32D7E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -305,10 +305,10 @@
 			target = 2D013BCB1A60096C008D889A /* Pad */;
 			targetProxy = 2D013BDF1A60096C008D889A /* PBXContainerItemProxy */;
 		};
-		2D013BFA1A600A69008D889A /* PBXTargetDependency */ = {
+		2DAE2AAE1A64A6F000E32D7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Markingbird;
-			targetProxy = 2D013BF91A600A69008D889A /* PBXContainerItemProxy */;
+			name = Annie;
+			targetProxy = 2DAE2AAD1A64A6F000E32D7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -478,6 +478,7 @@
 				2D013BEA1A60096D008D889A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D013BEB1A60096D008D889A /* Build configuration list for PBXNativeTarget "PadTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +487,7 @@
 				2D013BED1A60096D008D889A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

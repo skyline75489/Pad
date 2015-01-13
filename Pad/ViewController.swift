@@ -8,7 +8,7 @@
 
 import Cocoa
 import WebKit
-import Markingbird
+import Annie
 
 class ViewController: NSViewController {
 
@@ -16,19 +16,8 @@ class ViewController: NSViewController {
     @IBOutlet weak var scrollView: NSScrollView!
     @IBOutlet weak var webView: WebView!
     
-    var markdown: Markdown?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        var options = MarkdownOptions()
-        options.autoHyperlink = true
-        options.autoNewlines = true
-        options.emptyElementSuffix = ">"
-        options.encodeProblemUrlCharacters = true
-        options.linkEmails = false
-        options.strictBoldItalic = true
-        self.markdown = Markdown(options: options)
-        
         let notificationCenter = NSNotificationCenter.defaultCenter()
         notificationCenter.addObserver(self, selector: Selector("textDidChange"), name: NSTextDidChangeNotification, object:textView)
         // Do any additional setup after loading the view.
@@ -42,7 +31,7 @@ class ViewController: NSViewController {
     
     func textDidChange() {
         if let text = textView.textStorage?.string {
-            let html = markdown?.transform(text)
+            let html = Annie.markdown(text)
             self.webView.mainFrame.loadHTMLString(html, baseURL: nil)
         }
     }

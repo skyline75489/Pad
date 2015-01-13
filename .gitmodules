@@ -1,3 +1,6 @@
 [submodule "Markingbird"]
 	path = Markingbird
 	url = git@github.com:kristopherjohnson/Markingbird.git
+[submodule "Annie"]
+	path = Annie
+	url = git@github.com:skyline75489/Annie.git
