@@ -1,5 +1,5 @@
 ### Pad
 
-This is a sample markdown live editor powered by [Markingbird](https://github.com/kristopherjohnson/Markingbird).
+This is a sample markdown live editor powered by [Annie](https://github.com/skyline75489/Annie).
 
 ![](sample-by-licecap.gif)
