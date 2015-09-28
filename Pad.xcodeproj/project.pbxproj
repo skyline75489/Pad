@@ -206,6 +206,7 @@
 		2D013BC41A60096C008D889A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = skyline;
 				TargetAttributes = {

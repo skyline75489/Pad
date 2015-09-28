@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "108B97E1435E7DDCF82C69BD0D5E21A5200AF7E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F0564F4E88EACB516CDDD0CB8DE69E9AE33E193E" : 0,
+    "108B97E1435E7DDCF82C69BD0D5E21A5200AF7E8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "60C1BB7F-1371-463C-85FF-10EA4ABB88A0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F0564F4E88EACB516CDDD0CB8DE69E9AE33E193E" : "Pad\/Annie\/",
+    "108B97E1435E7DDCF82C69BD0D5E21A5200AF7E8" : "Pad\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pad",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Pad.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:skyline75489\/Pad.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "108B97E1435E7DDCF82C69BD0D5E21A5200AF7E8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:skyline75489\/Annie.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F0564F4E88EACB516CDDD0CB8DE69E9AE33E193E"
+    }
+  ]
+}
